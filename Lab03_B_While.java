@@ -54,7 +54,7 @@ public class Lab03_B_While {
         //Calculate and display the sum of all even numbers between two integers
         tempNumber = firstNum;
         evenSum = 0;
-        while(tempNumber <+ secondNum)
+        while(tempNumber <= secondNum)
         {
             if(tempNumber % 2 == 0)
                 evenSum += tempNumber;
